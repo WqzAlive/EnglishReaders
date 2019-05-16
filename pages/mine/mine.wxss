@@ -1,0 +1,104 @@
+/* pages/mine/mine.wxss */
+
+.head_style {
+  height: 270rpx;
+  background-color: #52c759;
+  border-bottom-left-radius: 60rpx;
+  border-bottom-right-radius: 60rpx;
+}
+
+.head_image_style {
+  width: 200rpx;
+  height: 200rpx;
+  background-color: white;
+  border-radius: 50%;
+  float: left;
+  margin: 40rpx 0rpx 0rpx 30rpx;
+}
+
+.image_style {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
+
+.head_title_style {
+  padding-top: 50rpx;
+  padding-left: 30rpx;
+  float: left;
+  height: 200rpx;
+}
+
+.title_name_style {
+  color: white;
+}
+
+.title_data_style {
+  margin-left: 15rpx;
+  margin-right: 15rpx;
+  font-size: 72rpx;
+  color: white;
+}
+
+.center_mine_style {
+  height: 140rpx;
+  line-height: 140rpx;
+  text-align: center;
+  border: 2rpx #d9d9d9 solid;
+}
+
+.center-text-style {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 28rpx;
+  font-family: PingFangSC-regular;
+  font-weight: normal;
+}
+
+.center-style {
+  margin-top: 40rpx;
+}
+
+.line-style {
+  margin: 40rpx 40rpx 0rpx 40rpx;
+  height: 15rpx;
+  background-color: #e5e5e5;
+}
+
+.bottom_style {
+  height: 120rpx;
+  padding-left: 40rpx;
+  padding-top: 20rpx;
+}
+
+.bottom_record_text_style {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 36rpx;
+  font-family: PingFangSC-regular;
+  font-weight: normal;
+}
+
+.bottom_record_toast_style {
+  margin-left: 50rpx;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 28rpx;
+  font-weight: normal;
+  font-family: PingFangSC-regular;
+}
+
+.bottom_line_style {
+  margin-top: 10rpx;
+  height: 5rpx;
+  background-color: #e5e5e5;
+}
+
+.bottom_title_text_style {
+  font-size: 28rpx;
+  font-family: PingFangSC-regular;
+  color: rgba(0, 0, 0, 0.65);
+  margin-left: 40rpx;
+}
+
+.bottom_record_style {
+  height: 70rpx;
+  padding-left: 40rpx;
+}

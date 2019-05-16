@@ -1,0 +1,132 @@
+/* pages/reader/reader.wxss */
+
+.v1 {
+  height: 80rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  line-height: 80rpx;
+  border-bottom: 2rpx solid rgba(187, 187, 187, 1);
+}
+
+.i-style {
+  position: fixed;
+  top: 20rpx;
+  right: 142rpx;
+  margin-top: 13rpx;
+}
+
+.t1 {
+  font-size: 32rpx;
+  font-family: Arial;
+  color: black;
+  font-weight: bold;
+}
+
+.t2 {
+  width: 166rpx;
+  position: fixed;
+  top: 20rpx;
+  right: 20rpx;
+  font-size: 24rpx;
+  font-family: Arial;
+  color: white;
+  background-color: #9cd994;
+  border-radius: 40rpx;
+  padding-left: 43rpx;
+}
+
+.v2 {
+  padding-right: 10rpx;
+  padding-left: 10rpx;
+  border-bottom: 2rpx solid rgba(187, 187, 187, 1);
+}
+
+.t3 {
+  font-size: 24rpx;
+  font-family: PingFangSC-regular;
+  color: black;
+  margin-left: 10rpx;
+}
+
+.t4 {
+  color: rgba(16, 16, 16, 1);
+  font-size: 28rpx;
+  font-family: PingFangSC-regular;
+}
+
+.v3 {
+  /* height: 120rpx; */
+  margin-bottom: 30rpx;
+  padding-right: 10rpx;
+  padding-left: 10rpx;
+  word-break: break-all;
+}
+
+.v4 {
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+  padding-right: 10rpx;
+  padding-left: 10rpx;
+  word-break: break-all;
+  border-left: 4rpx solid rgb(75, 158, 117);
+  margin-bottom: 10rpx;
+}
+
+.t5 {
+  font-size: 28rpx;
+  font-family: PingFangSC-regular;
+}
+
+.t7 {
+  word-wrap: break-word;
+  word-break: normal;
+  font-size: 32rpx;
+  font-family: PingFangSC-regular;
+}
+
+.vStyle {
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+
+.theStyle {
+  height: 237rpx;
+  margin-top: 30rpx;
+  text-align: center;
+}
+
+.btnStyle {
+  margin-top: 20rpx;
+  width: 600rpx;
+  border-radius: 10rpx;
+  margin-bottom: 40rpx;
+  background-color: #9cd994;
+  color: white;
+}
+
+.t-style {
+  font-size: 24rpx;
+}
+
+.mine-style {
+  font-size: 24rpx;
+}
+
+.btn-style {
+  position: fixed;
+  right: 20rpx;
+  bottom: 300rpx;
+  height: 80rpx;
+  width: 80rpx;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  background-color: white;
+  
+}
+.i-style1{
+  position: fixed;
+  right: 42rpx;
+  bottom: 320rpx;
+  z-index: 100;
+}

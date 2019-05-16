@@ -1,0 +1,45 @@
+<!--pages/reader/reader.wxml-->
+<view style='  background-color: #e6e6e6;'>
+  <view class="v1">
+    <text class="t1">{{title}}</text>
+    <button class="t2" bindtap="addclick">订阅推送</button>
+    <i-icon type='add' size="17" color="white" i-class='i-style' bindtap="addclick"></i-icon>
+  </view>
+  <text class="t3">{{date}}</text>
+  <view class="v2">
+    <text class="t4">{{guide}}</text>
+  </view>
+
+  <view>
+    <view class="v3" wx:for="{{content}}" wx:key="{{}}" wx:for-index="idx">
+      <i-icon type='browse' size='24' color='#80848f' bindtap='browseClick' data-id='{{idx}}'></i-icon>
+      <text class='t7'>{{item}}</text>
+      <!-- wx:if="{{status==index ? true : false}}" -->
+      <view class="v4" wx:if="{{status[index] ? true : false}}" wx:for="{{translation}}" wx:key="{{}}" wx:for-index="index">
+        <text class='t5' wx:if="{{idx ==index}}">{{item}}</text>
+      </view>
+    </view>
+  </view>
+  <view class='theStyle'>
+    <text class='t-style'>-THE END-</text>
+    <button class='btnStyle' disabled='{{disableType}}' bindtap='btnclick'>完成今日学习任务</button>
+  </view>
+  <view style=' background-color: #e6e6e6;'>
+    <i-tab-bar current="{{ current }}" color="#9cd994" bindchange="handleChange">
+      <i-tab-bar-item key="homepage" icon="homepage" current-icon="homepage_fill" title="首页"></i-tab-bar-item>
+      <i-tab-bar-item key="mine" icon="mine" current-icon="mine_fill" title="我的" i-class='mine-style'></i-tab-bar-item>
+    </i-tab-bar>
+  </view>
+  <view bindtap='shareClick'>
+  <i-icon type="share_fill" size='22'i-class='i-style1' />
+  <button class='btn-style'></button>
+  </view>
+
+
+  <i-modal title="订阅方法" visible="{{ visible1 }}" bind:click="handleClose1" show-cancel="{{cancel}}" ok-text="复制英文早读" actions="{{actions1}}">
+    <view class='vStyle'>{{toast1}}</view>
+  </i-modal>
+
+  <i-toast id="toast" />
+
+</view>

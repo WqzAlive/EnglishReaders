@@ -1,0 +1,82 @@
+<!--pages/mine/mine.wxml-->
+<view>
+
+  <view class='head_style'>
+    <view class='head_image_style'>
+      <image class='image_style' src='{{userInfo.avatarUrl}}'></image>
+    </view>
+    <view class='head_title_style'>
+      <text class='title_name_style'>{{userInfo.nickName}}</text>
+      <view>
+        <text class='title_name_style'>已连续阅读</text>
+        <text class='title_data_style'> 10 </text>
+        <text class='title_name_style'>天</text>
+      </view>
+    </view>
+  </view>
+  <view class='center-style'>
+    <i-row>
+      <i-col span='8'>
+        <view class='center_mine_style'>
+          <text class='center-text-style'> 我的成就</text>
+        </view>
+
+      </i-col>
+      <i-col span='8'>
+        <view class='center_mine_style'>
+          <text class='center-text-style'> 意见反馈</text>
+        </view>
+
+      </i-col>
+      <i-col span='8'>
+
+        <view class='center_mine_style'>
+        
+          <text class='center-text-style'> 在线客服</text>
+        </view>
+      </i-col>
+    </i-row>
+  </view>
+  <view class='line-style'></view>
+  <view class='bottom_style'>
+    <text class='bottom_record_text_style'>本周记录</text>
+    <text class='bottom_record_toast_style'>温故而知新 可以为师矣</text>
+  </view>
+<view class='bottom_record_style'>
+<view class='bottom_line_style'></view>
+<text class='bottom_title_text_style'>5-1：可爱的表情救你的命，</text>
+<i-icon type="enter"  size='16' style='float:right' color='#C7C7CC'/>
+<view class='bottom_line_style'></view>
+</view>
+<view class='bottom_record_style'>
+
+<text class='bottom_title_text_style'>5-2：流浪地球-可还行？看看外媒怎么评</text>
+<i-icon type="enter"  size='16' style='float:right' color='#C7C7CC'/>
+<view class='bottom_line_style'></view>
+</view>
+
+<view class='bottom_record_style'>
+
+<text class='bottom_title_text_style'>5-3：评委diss周杰伦</text>
+<i-icon type="enter"  size='16' style='float:right' color='#C7C7CC'/>
+<view class='bottom_line_style'></view>
+</view>
+
+<view class='bottom_record_style'>
+
+<text class='bottom_title_text_style'>5-4：学生答辩论文被扔</text>
+<i-icon type="enter"  size='16' style='float:right' color='#C7C7CC'/>
+<view class='bottom_line_style'></view>
+</view>
+
+<view class='bottom_record_style'>
+<text class='bottom_title_text_style'>5-5：妈妈的礼物新</text>
+<i-icon type="enter"  size='16' style='float:right' color='#C7C7CC'/>
+<view class='bottom_line_style'></view>
+</view>
+
+
+
+
+
+</view>

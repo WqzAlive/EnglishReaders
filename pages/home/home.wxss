@@ -1,0 +1,138 @@
+/* pages/home/home.wxss */
+
+.v1 {
+  height: 150rpx;
+  display: flex;
+  line-height: 150rpx;
+  flex-direction: row;
+  padding-top: 50rpx;
+  padding-left: 50rpx;
+}
+
+.v2 {
+  height: 150rpx;
+  width: 150rpx;
+  background-color: white;
+  border: 2rpx white solid;
+}
+
+.image-style {
+  margin: 10rpx;
+  height: 128rpx;
+  width: 128rpx;
+}
+
+.v3 {
+  height: 120rpx;
+  line-height: 150rpx;
+  padding-left: 80rpx;
+  padding-top: 20rpx;
+}
+
+.t1 {
+  font-size: 32rpx;
+}
+
+.t2 {
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  font-size: 56rpx;
+}
+
+.t3 {
+  font-size: 32rpx;
+}
+
+.title_style {
+  font-size: 36rpx;
+  font-weight: bold;
+  padding-left: 50rpx;
+  font-family: Arial-blod;
+  margin: 15rpx 0rpx 0rpx 0rpx;
+}
+
+.tit_cn_style {
+  width: 500rpx;
+  font-size: 32rpx;
+  padding-left: 60rpx;
+  font-family: Arial-blod;
+  margin-top: 14rpx;
+}
+
+.tit_en_style {
+  margin-top: 34rpx;
+  width: 500rpx;
+  padding-left: 60rpx;
+  font-size: 32rpx;
+  font-family: Times New Roman-regular;
+}
+.age_style{
+  margin-top: 34rpx;
+}
+.image_style {
+  height: 300rpx;
+  width: 100%;
+}
+
+.line-style {
+  margin: 20rpx 40rpx 14rpx 40rpx;
+  height: 5rpx;
+  background-color: #68829B;
+}
+
+.v_text_style {
+  height: 63rpx;
+  line-height: 63rpx;
+  padding-left: 40rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.icon_style {
+  margin-top: 15rpx;
+ 
+}
+
+.v-test-style1 {
+  font-size: 28rpx;
+  margin-left: 15rpx;
+  color: white;
+}
+
+.text_style {
+  height: 50rpx;
+  line-height: 50rpx;
+  padding-left: 40rpx;
+  padding-top: 25rpx;
+}
+
+.v_btn {
+  margin: 30rpx;
+  height: 150rpx;
+  
+}
+
+.v-style {
+  background-color: #f7fbfe;
+  height: 900rpx;
+  border-bottom-left-radius: 60rpx;
+  border-bottom-right-radius: 60rpx;
+}
+
+.reader_style {
+  margin-top: 20rpx;
+  height: 50rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+  padding-left: 40rpx;
+  color: white；
+}
+
+.btn_style {
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  color: white;
+  border-radius: 5px 5px 5px 5px;
+  background-color: #517DA8;
+  text-align: center;
+}

@@ -1,0 +1,55 @@
+<!--pages/home/home.wxml-->
+<view style='background-color: #68829B;'>
+  <view class='v-style'>
+    <view class='v1'>
+      <view class='v2'>
+        <image src='{{userInfo.avatarUrl}}' class='image-style'></image>
+      </view>
+      <view class='v3'>
+        <text class='t1'>今日已阅读</text>
+        <text class='t2'>0</text>
+        <text class='t3'>天</text>
+      </view>
+    </view>
+    <view class='line-style'>
+    </view>
+    <view class='age_style'>
+      <image src='https://cdn-zmyd.iwordnet.com/tem/periodical/20190212/DppzteL8.jpg' mode='aspectFill' class='image_style'></image>
+    </view>
+    <view class='title_style'>
+      <text>今日导读：</text>
+    </view>
+    <view class='tit_cn_style'>
+      <text>《流浪地球》可还行？看看外媒怎么评</text>
+    </view>
+    <view class='tit_en_style'>
+      <text>China’s film industry finally joins the space</text>
+    </view>
+  </view>
+  <view class='reader_style'>
+    <text style='color:white'>阅读声明：</text>
+  </view>
+  <view class='line-style' style='background-color:white'></view>
+  <view class='v_text_style'>
+    <icon type='success' size='18' class='icon_style' color=''></icon>
+    <text class='v-test-style1'>当前环境适合阅读</text>
+
+  </view>
+  <view class='v_text_style'>
+    <icon type='success' size='18' class='icon_style' color='#517DA8'></icon>
+    <text class='v-test-style1'>开启阅读后会努力阅读完今日新闻</text>
+  </view>
+
+  <view class='v_text_style'>
+    <icon type='success' size='18' class='icon_style' color='#517DA8'></icon>
+    <text class='v-test-style1'>多选项</text>
+  </view>
+
+
+
+  <view class='v_btn'>
+    <button class='btn_style' bindgetuserinfo='getUserInfo' open-type="getUserInfo">开始今天阅读</button>
+  </view>
+ 
+
+</view>
